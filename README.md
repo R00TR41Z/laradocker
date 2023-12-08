@@ -4,7 +4,7 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/setup-docker-laravel.git app-laravel
+git clone https://github.com/R00TR41Z/laradocker.git app-laravel
 ```
 ```sh
 cd app-laravel
@@ -19,8 +19,8 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=EspecializaTi
-APP_URL=http://localhost:8989
+APP_NAME=laravel
+APP_URL=http://localhost:8000
 
 DB_CONNECTION=mysql
 DB_HOST=db
@@ -64,4 +64,4 @@ php artisan key:generate
 
 
 Acesse o projeto
-[http://localhost:8989](http://localhost:8989)
+[http://localhost:8000](http://localhost:8000)
